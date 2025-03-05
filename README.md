@@ -10,7 +10,7 @@
 ### Backend
 - make sure docker in installed
 - go to backend folder
-- run docker-compose -f docker-compose.yaml up --build
+- run docker-compose -f docker-compose.yaml up -d --build
 
 ### Frontend 
 - go to frontend folder
