@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "allowJs": true,
+    "sourceMap": true,
+    "outDir": "./build",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@lib/*": ["./lib/*"],
+      "@loaders": ["./loaders"],
+      "@middlewares": ["./middlewares"],
+      "@modules/*": ["./modules/*"],
+      "@utils/*": ["./utils/*"]
+    },
+    "typeRoots": ["./node_modules/@types/", "src/_types"]
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "src/**/*.spec.ts"]
+}
